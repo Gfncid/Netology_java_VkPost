@@ -2,10 +2,10 @@ package ru.netology.domain;
 
 public class CommentsInfo {
     private int count;
-    private boolean can_post;
-    private boolean groups_can_post;
-    private boolean can_close;
-    private boolean can_open;
+    private boolean canPost;
+    private boolean groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
     public int getCount() {
         return count;
@@ -15,35 +15,37 @@ public class CommentsInfo {
         this.count = count;
     }
 
-    public boolean isCan_post() {
-        return can_post;
+    public boolean isCanPost() {
+        return canPost;
     }
 
-    public void setCan_post(boolean can_post) {
-        this.can_post = can_post;
+    public void setCanPost(boolean canPost) {
+        this.canPost = canPost;
     }
 
-    public boolean isGroups_can_post() {
-        return groups_can_post;
+    public boolean isGroupsCanPost() {
+        return groupsCanPost;
     }
 
-    public void setGroups_can_post(boolean groups_can_post) {
-        this.groups_can_post = groups_can_post;
+    public void setGroupsCanPost(boolean groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
     }
 
-    public boolean isCan_close() {
-        return can_close;
+    public boolean isCanClose() {
+        return canClose;
     }
 
-    public void setCan_close(boolean can_close) {
-        this.can_close = can_close;
+    public void setCanClose(boolean canClose) {
+        this.canClose = canClose;
     }
 
-    public boolean isCan_open() {
-        return can_open;
+    public boolean isCanOpen() {
+        return canOpen;
     }
 
-    public void setCan_open(boolean can_open) {
-        this.can_open = can_open;
+    public void setCanOpen(boolean canOpen) {
+        this.canOpen = canOpen;
     }
 }
+
+

@@ -2,13 +2,13 @@ package ru.netology.domain.attachment;
 
 public class Note {
     private int id;
-    private int owner_id;
+    private int ownerId;
     private String title;
     private String text;
     private int date;
     private int commentsInfo;
-    private int read_commentsInfo;
-    private String view_url;
+    private int readCommentsInfo;
+    private String viewUrl;
 
     public int getId() {
         return id;
@@ -18,12 +18,12 @@ public class Note {
         this.id = id;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     public String getTitle() {
@@ -58,19 +58,19 @@ public class Note {
         this.commentsInfo = commentsInfo;
     }
 
-    public int getRead_commentsInfo() {
-        return read_commentsInfo;
+    public int getReadCommentsInfo() {
+        return readCommentsInfo;
     }
 
-    public void setRead_commentsInfo(int read_commentsInfo) {
-        this.read_commentsInfo = read_commentsInfo;
+    public void setReadCommentsInfo(int readCommentsInfo) {
+        this.readCommentsInfo = readCommentsInfo;
     }
 
-    public String getView_url() {
-        return view_url;
+    public String getViewUrl() {
+        return viewUrl;
     }
 
-    public void setView_url(String view_url) {
-        this.view_url = view_url;
+    public void setViewUrl(String viewUrl) {
+        this.viewUrl = viewUrl;
     }
 }

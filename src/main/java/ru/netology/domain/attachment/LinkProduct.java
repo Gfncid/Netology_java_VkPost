@@ -1,13 +1,13 @@
 package ru.netology.domain.attachment;
 
 public class LinkProduct {
-    private int price;
+    private Price price;
 
-    public int getPrice() {
+    public Price getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Price price) {
         this.price = price;
     }
 }

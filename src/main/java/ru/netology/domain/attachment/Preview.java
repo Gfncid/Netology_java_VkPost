@@ -3,7 +3,7 @@ package ru.netology.domain.attachment;
 public class Preview {
     private DocPhoto photo;
     private DocGraffiti graffiti;
-    private DocAudio_message audio_message;
+    private DocAudioMessage audioMessage;
 
     public DocPhoto getPhoto() {
         return photo;
@@ -21,11 +21,11 @@ public class Preview {
         this.graffiti = graffiti;
     }
 
-    public DocAudio_message getAudio_message() {
-        return audio_message;
+    public DocAudioMessage getAudioMessage() {
+        return audioMessage;
     }
 
-    public void setAudio_message(DocAudio_message audio_message) {
-        this.audio_message = audio_message;
+    public void setAudio_message(DocAudioMessage audioMessage) {
+        this.audioMessage = audioMessage;
     }
 }

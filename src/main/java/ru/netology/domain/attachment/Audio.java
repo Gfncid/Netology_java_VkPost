@@ -2,17 +2,17 @@ package ru.netology.domain.attachment;
 
 public class Audio {
     private int id;
-    private int owner_id;
+    private int ownerId;
     private String artist;
     private String title;
     private int duration;
     private String url;
-    private int lyrics_id;
-    private int album_id;
-    private int genre_id;
+    private int lyricsId;
+    private int albumId;
+    private int genreId;
     private int date;
-    private boolean no_search;
-    private boolean is_hq;
+    private boolean noSearch;
+    private boolean isHq;
 
     public int getId() {
         return id;
@@ -22,12 +22,12 @@ public class Audio {
         this.id = id;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     public String getArtist() {
@@ -62,28 +62,28 @@ public class Audio {
         this.url = url;
     }
 
-    public int getLyrics_id() {
-        return lyrics_id;
+    public int getLyricsId() {
+        return lyricsId;
     }
 
-    public void setLyrics_id(int lyrics_id) {
-        this.lyrics_id = lyrics_id;
+    public void setLyricsId(int lyricsId) {
+        this.lyricsId = lyricsId;
     }
 
-    public int getAlbum_id() {
-        return album_id;
+    public int getAlbumId() {
+        return albumId;
     }
 
-    public void setAlbum_id(int album_id) {
-        this.album_id = album_id;
+    public void setAlbumId(int albumId) {
+        this.albumId = albumId;
     }
 
-    public int getGenre_id() {
-        return genre_id;
+    public int getGenreId() {
+        return genreId;
     }
 
-    public void setGenre_id(int genre_id) {
-        this.genre_id = genre_id;
+    public void setGenreId(int genreId) {
+        this.genreId = genreId;
     }
 
     public int getDate() {
@@ -94,19 +94,19 @@ public class Audio {
         this.date = date;
     }
 
-    public boolean isNo_search() {
-        return no_search;
+    public boolean isNoSearch() {
+        return noSearch;
     }
 
-    public void setNo_search(boolean no_search) {
-        this.no_search = no_search;
+    public void setNoSearch(boolean noSearch) {
+        this.noSearch = noSearch;
     }
 
-    public boolean isIs_hq() {
-        return is_hq;
+    public boolean isHq() {
+        return isHq;
     }
 
-    public void setIs_hq(boolean is_hq) {
-        this.is_hq = is_hq;
+    public void setHq(boolean hq) {
+        isHq = hq;
     }
 }

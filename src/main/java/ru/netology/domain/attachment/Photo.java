@@ -2,9 +2,9 @@ package ru.netology.domain.attachment;
 
 public class Photo {
     private int id;
-    private int album_id;
-    private int owner_id;
-    private int user_id;
+    private int albumId;
+    private int ownerId;
+    private int userId;
     private String text;
     private int date;
     private int width;
@@ -18,28 +18,28 @@ public class Photo {
         this.id = id;
     }
 
-    public int getAlbum_id() {
-        return album_id;
+    public int getAlbumId() {
+        return albumId;
     }
 
-    public void setAlbum_id(int album_id) {
-        this.album_id = album_id;
+    public void setAlbumId(int albumId) {
+        this.albumId = albumId;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getText() {

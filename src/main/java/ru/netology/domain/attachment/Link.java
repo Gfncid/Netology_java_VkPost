@@ -4,9 +4,10 @@ public class Link {
     private String url;
     private String title;
     private String caption;
+    private String description;
     private Photo photo;
-    private String preview_page;
-    private String preview_url;
+    private String previewPage;
+    private String previewUrl;
     private LinkProduct product;
     private LinkButton button;
 
@@ -34,6 +35,14 @@ public class Link {
         this.caption = caption;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public Photo getPhoto() {
         return photo;
     }
@@ -42,20 +51,20 @@ public class Link {
         this.photo = photo;
     }
 
-    public String getPreview_page() {
-        return preview_page;
+    public String getPreviewPage() {
+        return previewPage;
     }
 
-    public void setPreview_page(String preview_page) {
-        this.preview_page = preview_page;
+    public void setPreviewPage(String previewPage) {
+        this.previewPage = previewPage;
     }
 
-    public String getPreview_url() {
-        return preview_url;
+    public String getPreviewUrl() {
+        return previewUrl;
     }
 
-    public void setPreview_url(String preview_url) {
-        this.preview_url = preview_url;
+    public void setPreviewUrl(String previewUrl) {
+        this.previewUrl = previewUrl;
     }
 
     public LinkProduct getProduct() {

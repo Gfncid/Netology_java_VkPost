@@ -1,10 +1,10 @@
 package ru.netology.domain.attachment;
 
-public class App {
+public class PostedPhoto {
     private int id;
-    private String name;
+    private int ownerId;
     private String photo130;
-    private String photo604;
+    private String Photo604;
 
     public int getId() {
         return id;
@@ -14,12 +14,12 @@ public class App {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     public String getPhoto130() {
@@ -31,10 +31,10 @@ public class App {
     }
 
     public String getPhoto604() {
-        return photo604;
+        return Photo604;
     }
 
     public void setPhoto604(String photo604) {
-        this.photo604 = photo604;
+        Photo604 = photo604;
     }
 }

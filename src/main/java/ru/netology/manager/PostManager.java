@@ -9,20 +9,17 @@ public class PostManager {
 
         return null;
     }
-    public Post[] search() {
-        int owner_id;
-        String domain;
-        String query;
-        boolean owners_only;
-        int count;
-        int offset;
+
+
+    public Post[] search(String query) {
+
 
         return null;
     }
 
-    public void delete() {
-        int owner_id;
-        int post_id;
+
+    public void delete(int ownerId, int postId) {
+
 
         return null;
     }

@@ -3,7 +3,7 @@ package ru.netology.domain.attachment;
 
 public class Doc {
     private int id;
-    private int owner_id;
+    private int ownerId;
     private String title;
     private int size;
     private String ext;
@@ -20,12 +20,12 @@ public class Doc {
         this.id = id;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     public String getTitle() {

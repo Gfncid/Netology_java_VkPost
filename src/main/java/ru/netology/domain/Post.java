@@ -2,30 +2,30 @@ package ru.netology.domain;
 
 public class Post {
     private int id;
-    private int owner_id;
-    private int from_id;
-    private int created_by;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
     private int date;
     private String text;
-    private int reply_owner_id;
-    private int reply_post_id;
-    private int friends_only;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
     private String copyright;
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
     private CommentsInfo commentsInfo;
-    private String post_type;
-    private Post_source post_source;
+    private String postType;
+    private PostSource postSource;
     private Geo geo;
-    private int signer_id;
-    private boolean can_pin;
-    private boolean can_delete;
-    private boolean can_edit;
-    private boolean is_pinned;
-    private boolean marked_as_ads;
-    private boolean is_favorite;
-    private int postponed_id;
+    private int signerId;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
+    private boolean isPinned;
+    private boolean markedAsAds;
+    private boolean isFavorite;
+    private int postponedId;
 
     public int getId() {
         return id;
@@ -35,28 +35,28 @@ public class Post {
         this.id = id;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
-    public int getFrom_id() {
-        return from_id;
+    public int getFromId() {
+        return fromId;
     }
 
-    public void setFrom_id(int from_id) {
-        this.from_id = from_id;
+    public void setFromId(int fromId) {
+        this.fromId = fromId;
     }
 
-    public int getCreated_by() {
-        return created_by;
+    public int getCreatedBy() {
+        return createdBy;
     }
 
-    public void setCreated_by(int created_by) {
-        this.created_by = created_by;
+    public void setCreatedBy(int createdBy) {
+        this.createdBy = createdBy;
     }
 
     public int getDate() {
@@ -75,28 +75,28 @@ public class Post {
         this.text = text;
     }
 
-    public int getReply_owner_id() {
-        return reply_owner_id;
+    public int getReplyOwnerId() {
+        return replyOwnerId;
     }
 
-    public void setReply_owner_id(int reply_owner_id) {
-        this.reply_owner_id = reply_owner_id;
+    public void setReplyOwnerId(int replyOwnerId) {
+        this.replyOwnerId = replyOwnerId;
     }
 
-    public int getReply_post_id() {
-        return reply_post_id;
+    public int getReplyPostId() {
+        return replyPostId;
     }
 
-    public void setReply_post_id(int reply_post_id) {
-        this.reply_post_id = reply_post_id;
+    public void setReplyPostId(int replyPostId) {
+        this.replyPostId = replyPostId;
     }
 
-    public int getFriends_only() {
-        return friends_only;
+    public int getFriendsOnly() {
+        return friendsOnly;
     }
 
-    public void setFriends_only(int friends_only) {
-        this.friends_only = friends_only;
+    public void setFriendsOnly(int friendsOnly) {
+        this.friendsOnly = friendsOnly;
     }
 
     public String getCopyright() {
@@ -139,20 +139,20 @@ public class Post {
         this.commentsInfo = commentsInfo;
     }
 
-    public String getPost_type() {
-        return post_type;
+    public String getPostType() {
+        return postType;
     }
 
-    public void setPost_type(String post_type) {
-        this.post_type = post_type;
+    public void setPostType(String postType) {
+        this.postType = postType;
     }
 
-    public Post_source getPost_source() {
-        return post_source;
+    public PostSource getPostSource() {
+        return postSource;
     }
 
-    public void setPost_source(Post_source post_source) {
-        this.post_source = post_source;
+    public void setPostSource(PostSource postSource) {
+        this.postSource = postSource;
     }
 
     public Geo getGeo() {
@@ -163,67 +163,67 @@ public class Post {
         this.geo = geo;
     }
 
-    public int getSigner_id() {
-        return signer_id;
+    public int getSignerId() {
+        return signerId;
     }
 
-    public void setSigner_id(int signer_id) {
-        this.signer_id = signer_id;
+    public void setSignerId(int signerId) {
+        this.signerId = signerId;
     }
 
-    public boolean isCan_pin() {
-        return can_pin;
+    public boolean isCanPin() {
+        return canPin;
     }
 
-    public void setCan_pin(boolean can_pin) {
-        this.can_pin = can_pin;
+    public void setCanPin(boolean canPin) {
+        this.canPin = canPin;
     }
 
-    public boolean isCan_delete() {
-        return can_delete;
+    public boolean isCanDelete() {
+        return canDelete;
     }
 
-    public void setCan_delete(boolean can_delete) {
-        this.can_delete = can_delete;
+    public void setCanDelete(boolean canDelete) {
+        this.canDelete = canDelete;
     }
 
-    public boolean isCan_edit() {
-        return can_edit;
+    public boolean isCanEdit() {
+        return canEdit;
     }
 
-    public void setCan_edit(boolean can_edit) {
-        this.can_edit = can_edit;
+    public void setCanEdit(boolean canEdit) {
+        this.canEdit = canEdit;
     }
 
-    public boolean isIs_pinned() {
-        return is_pinned;
+    public boolean isPinned() {
+        return isPinned;
     }
 
-    public void setIs_pinned(boolean is_pinned) {
-        this.is_pinned = is_pinned;
+    public void setPinned(boolean pinned) {
+        isPinned = pinned;
     }
 
-    public boolean isMarked_as_ads() {
-        return marked_as_ads;
+    public boolean isMarkedAsAds() {
+        return markedAsAds;
     }
 
-    public void setMarked_as_ads(boolean marked_as_ads) {
-        this.marked_as_ads = marked_as_ads;
+    public void setMarkedAsAds(boolean markedAsAds) {
+        this.markedAsAds = markedAsAds;
     }
 
-    public boolean isIs_favorite() {
-        return is_favorite;
+    public boolean isFavorite() {
+        return isFavorite;
     }
 
-    public void setIs_favorite(boolean is_favorite) {
-        this.is_favorite = is_favorite;
+    public void setFavorite(boolean favorite) {
+        isFavorite = favorite;
     }
 
-    public int getPostponed_id() {
-        return postponed_id;
+    public int getPostponedId() {
+        return postponedId;
     }
 
-    public void setPostponed_id(int postponed_id) {
-        this.postponed_id = postponed_id;
+    public void setPostponedId(int postponedId) {
+        this.postponedId = postponedId;
     }
 }

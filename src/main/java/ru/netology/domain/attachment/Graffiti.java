@@ -2,9 +2,9 @@ package ru.netology.domain.attachment;
 
 public class Graffiti {
     private int id;
-    private int owner_id;
-    private String photo_130;
-    private String photo_604;
+    private int ownerId;
+    private String photo130;
+    private String photo604;
 
     public int getId() {
         return id;
@@ -14,27 +14,27 @@ public class Graffiti {
         this.id = id;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
-    public String getPhoto_130() {
-        return photo_130;
+    public String getPhoto130() {
+        return photo130;
     }
 
-    public void setPhoto_130(String photo_130) {
-        this.photo_130 = photo_130;
+    public void setPhoto130(String photo130) {
+        this.photo130 = photo130;
     }
 
-    public String getPhoto_604() {
-        return photo_604;
+    public String getPhoto604() {
+        return photo604;
     }
 
-    public void setPhoto_604(String photo_604) {
-        this.photo_604 = photo_604;
+    public void setPhoto604(String photo604) {
+        this.photo604 = photo604;
     }
 }

@@ -2,34 +2,34 @@ package ru.netology.domain.attachment;
 
 public class Video {
     private int id;
-    private int owner_id;
+    private int ownerId;
     private String title;
     private String description;
     private int duration;
-    private String photo_130;
-    private String photo_320;
-    private String photo_640;
-    private String photo_800;
-    private String photo_1280;
-    private String first_frame_130;
-    private String first_frame_320;
-    private String first_frame_640;
-    private String first_frame_800;
-    private String first_frame_1280;
+    private String photo130;
+    private String photo320;
+    private String photo640;
+    private String photo800;
+    private String photo1280;
+    private String firstFrame130;
+    private String firstFrame320;
+    private String firstFrame640;
+    private String firstFrame800;
+    private String firstFrame1280;
     private int date;
-    private int adding_date;
+    private int addingDate;
     private int viewsInfo;
     private int commentsInfo;
     private String player;
     private String platform;
-    private boolean can_edit;
-    private boolean can_add;
-    private boolean is_private;
-    private String access_key;
+    private boolean canEdit;
+    private boolean canAdd;
+    private boolean isPrivate;
+    private String accessKey;
     private boolean processing;
     private boolean live;
     private boolean upcoming;
-    private boolean is_favorite;
+    private boolean isFavorite;
 
     public int getId() {
         return id;
@@ -39,12 +39,12 @@ public class Video {
         this.id = id;
     }
 
-    public int getOwner_id() {
-        return owner_id;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwner_id(int owner_id) {
-        this.owner_id = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     public String getTitle() {
@@ -71,84 +71,84 @@ public class Video {
         this.duration = duration;
     }
 
-    public String getPhoto_130() {
-        return photo_130;
+    public String getPhoto130() {
+        return photo130;
     }
 
-    public void setPhoto_130(String photo_130) {
-        this.photo_130 = photo_130;
+    public void setPhoto130(String photo130) {
+        this.photo130 = photo130;
     }
 
-    public String getPhoto_320() {
-        return photo_320;
+    public String getPhoto320() {
+        return photo320;
     }
 
-    public void setPhoto_320(String photo_320) {
-        this.photo_320 = photo_320;
+    public void setPhoto320(String photo320) {
+        this.photo320 = photo320;
     }
 
-    public String getPhoto_640() {
-        return photo_640;
+    public String getPhoto640() {
+        return photo640;
     }
 
-    public void setPhoto_640(String photo_640) {
-        this.photo_640 = photo_640;
+    public void setPhoto640(String photo640) {
+        this.photo640 = photo640;
     }
 
-    public String getPhoto_800() {
-        return photo_800;
+    public String getPhoto800() {
+        return photo800;
     }
 
-    public void setPhoto_800(String photo_800) {
-        this.photo_800 = photo_800;
+    public void setPhoto800(String photo800) {
+        this.photo800 = photo800;
     }
 
-    public String getPhoto_1280() {
-        return photo_1280;
+    public String getPhoto1280() {
+        return photo1280;
     }
 
-    public void setPhoto_1280(String photo_1280) {
-        this.photo_1280 = photo_1280;
+    public void setPhoto1280(String photo1280) {
+        this.photo1280 = photo1280;
     }
 
-    public String getFirst_frame_130() {
-        return first_frame_130;
+    public String getFirstFrame130() {
+        return firstFrame130;
     }
 
-    public void setFirst_frame_130(String first_frame_130) {
-        this.first_frame_130 = first_frame_130;
+    public void setFirstFrame130(String firstFrame130) {
+        this.firstFrame130 = firstFrame130;
     }
 
-    public String getFirst_frame_320() {
-        return first_frame_320;
+    public String getFirstFrame320() {
+        return firstFrame320;
     }
 
-    public void setFirst_frame_320(String first_frame_320) {
-        this.first_frame_320 = first_frame_320;
+    public void setFirstFrame320(String firstFrame320) {
+        this.firstFrame320 = firstFrame320;
     }
 
-    public String getFirst_frame_640() {
-        return first_frame_640;
+    public String getFirstFrame640() {
+        return firstFrame640;
     }
 
-    public void setFirst_frame_640(String first_frame_640) {
-        this.first_frame_640 = first_frame_640;
+    public void setFirstFrame640(String firstFrame640) {
+        this.firstFrame640 = firstFrame640;
     }
 
-    public String getFirst_frame_800() {
-        return first_frame_800;
+    public String getFirstFrame800() {
+        return firstFrame800;
     }
 
-    public void setFirst_frame_800(String first_frame_800) {
-        this.first_frame_800 = first_frame_800;
+    public void setFirstFrame800(String firstFrame800) {
+        this.firstFrame800 = firstFrame800;
     }
 
-    public String getFirst_frame_1280() {
-        return first_frame_1280;
+    public String getFirstFrame1280() {
+        return firstFrame1280;
     }
 
-    public void setFirst_frame_1280(String first_frame_1280) {
-        this.first_frame_1280 = first_frame_1280;
+    public void setFirstFrame1280(String firstFrame1280) {
+        this.firstFrame1280 = firstFrame1280;
     }
 
     public int getDate() {
@@ -159,12 +159,12 @@ public class Video {
         this.date = date;
     }
 
-    public int getAdding_date() {
-        return adding_date;
+    public int getAddingDate() {
+        return addingDate;
     }
 
-    public void setAdding_date(int adding_date) {
-        this.adding_date = adding_date;
+    public void setAddingDate(int addingDate) {
+        this.addingDate = addingDate;
     }
 
     public int getViewsInfo() {
@@ -199,36 +199,36 @@ public class Video {
         this.platform = platform;
     }
 
-    public boolean isCan_edit() {
-        return can_edit;
+    public boolean isCanEdit() {
+        return canEdit;
     }
 
-    public void setCan_edit(boolean can_edit) {
-        this.can_edit = can_edit;
+    public void setCanEdit(boolean canEdit) {
+        this.canEdit = canEdit;
     }
 
-    public boolean isCan_add() {
-        return can_add;
+    public boolean isCanAdd() {
+        return canAdd;
     }
 
-    public void setCan_add(boolean can_add) {
-        this.can_add = can_add;
+    public void setCanAdd(boolean canAdd) {
+        this.canAdd = canAdd;
     }
 
-    public boolean isIs_private() {
-        return is_private;
+    public boolean isPrivate() {
+        return isPrivate;
     }
 
-    public void setIs_private(boolean is_private) {
-        this.is_private = is_private;
+    public void setPrivate(boolean aPrivate) {
+        isPrivate = aPrivate;
     }
 
-    public String getAccess_key() {
-        return access_key;
+    public String getAccessKey() {
+        return accessKey;
     }
 
-    public void setAccess_key(String access_key) {
-        this.access_key = access_key;
+    public void setAccessKey(String accessKey) {
+        this.accessKey = accessKey;
     }
 
     public boolean isProcessing() {
@@ -255,11 +255,11 @@ public class Video {
         this.upcoming = upcoming;
     }
 
-    public boolean isIs_favorite() {
-        return is_favorite;
+    public boolean isFavorite() {
+        return isFavorite;
     }
 
-    public void setIs_favorite(boolean is_favorite) {
-        this.is_favorite = is_favorite;
+    public void setFavorite(boolean favorite) {
+        isFavorite = favorite;
     }
 }

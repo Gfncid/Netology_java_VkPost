@@ -1,10 +1,10 @@
 package ru.netology.domain.attachment;
 
-public class DocAudio_message {
+public class DocAudioMessage {
     private int duration;
     private int waveform[];
-    private String link_ogg;
-    private String link_mp3;
+    private String linkOgg;
+    private String linkMp3;
 
     public int getDuration() {
         return duration;
@@ -22,19 +22,19 @@ public class DocAudio_message {
         this.waveform = waveform;
     }
 
-    public String getLink_ogg() {
-        return link_ogg;
+    public String getLinkOgg() {
+        return linkOgg;
     }
 
-    public void setLink_ogg(String link_ogg) {
-        this.link_ogg = link_ogg;
+    public void setLinkOgg(String linkOgg) {
+        this.linkOgg = linkOgg;
     }
 
-    public String getLink_mp3() {
-        return link_mp3;
+    public String getLinkMp3() {
+        return linkMp3;
     }
 
-    public void setLink_mp3(String link_mp3) {
-        this.link_mp3 = link_mp3;
+    public void setLinkMp3(String linkMp3) {
+        this.linkMp3 = linkMp3;
     }
 }
